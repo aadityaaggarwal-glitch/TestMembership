@@ -1,0 +1,670 @@
+/* ============================================
+   MOBILE HUB - MEMBERSHIP DASHBOARD STYLES
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1e3a8a;
+    --secondary-color: #3b82f6;
+    --accent-color: #f59e0b;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
+    --light-bg: #f8fafc;
+    --dark-text: #1f2937;
+    --border-color: #e5e7eb;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    color: var(--dark-text);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* ============================================
+   HEADER STYLES
+   ============================================ */
+
+.header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.shop-tagline {
+    font-size: 1rem;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+/* ============================================
+   MAIN CONTAINER
+   ============================================ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ============================================
+   SEARCH SECTION
+   ============================================ */
+
+.search-section {
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px 18px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-btn {
+    padding: 12px 25px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-btn:hover {
+    background: #d97706;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search-btn:active {
+    transform: translateY(0);
+}
+
+.search-info {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+/* ============================================
+   TABLE STYLES
+   ============================================ */
+
+.table-wrapper {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-x: auto;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 30px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.members-table thead {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+}
+
+.members-table th {
+    padding: 18px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.members-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.members-table tbody tr:hover {
+    background: var(--light-bg);
+    box-shadow: inset 0 0 8px rgba(59, 130, 246, 0.05);
+}
+
+.members-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.members-table td {
+    padding: 16px 18px;
+    font-size: 0.95rem;
+}
+
+.serial-no {
+    font-weight: 600;
+    color: var(--secondary-color);
+    width: 50px;
+}
+
+.member-name {
+    font-weight: 600;
+    color: var(--dark-text);
+}
+
+.mobile-number {
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--secondary-color);
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.mobile-number:hover {
+    background: rgba(59, 130, 246, 0.1);
+    text-decoration: underline;
+}
+
+.card-number {
+    font-weight: 600;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.card-number:hover {
+    background: rgba(30, 58, 138, 0.1);
+    text-decoration: underline;
+}
+
+.membership-tier {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tier-platinum {
+    background: linear-gradient(135deg, #d4af37, #ffd700);
+    color: #333;
+}
+
+.tier-gold {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: white;
+}
+
+.tier-silver {
+    background: linear-gradient(135deg, #cbd5e1, #94a3b8);
+    color: white;
+}
+
+/* ============================================
+   PAGINATION STYLES
+   ============================================ */
+
+.pagination-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.pagination button {
+    padding: 10px 14px;
+    border: 2px solid var(--border-color);
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    min-width: 44px;
+}
+
+.pagination button:hover:not(:disabled) {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    background: rgba(59, 130, 246, 0.05);
+}
+
+.pagination button.active {
+    background: var(--secondary-color);
+    color: white;
+    border-color: var(--secondary-color);
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-info {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+    font-weight: 500;
+}
+
+/* ============================================
+   MODAL STYLES
+   ============================================ */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.3s ease;
+}
+
+.modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    background: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    animation: slideUp 0.3s ease;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.password-modal-content {
+    max-width: 400px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid var(--border-color);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-header h2 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    transform: scale(1.2);
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+/* ============================================
+   BENEFITS MODAL STYLES
+   ============================================ */
+
+.benefits-list {
+    list-style: none;
+}
+
+.benefits-list li {
+    padding: 15px;
+    margin-bottom: 12px;
+    background: var(--light-bg);
+    border-left: 4px solid var(--success-color);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    animation: slideUp 0.3s ease;
+}
+
+.benefits-list li:before {
+    content: "✓";
+    color: var(--success-color);
+    font-weight: 700;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.benefits-list li div {
+    flex: 1;
+}
+
+/* ============================================
+   PASSWORD MODAL STYLES
+   ============================================ */
+
+.password-info {
+    text-align: center;
+    color: var(--dark-text);
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.password-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-family: 'Courier New', monospace;
+    transition: all 0.3s ease;
+}
+
+.password-input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.password-submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.password-submit-btn:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.password-hint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #6b7280;
+    font-style: italic;
+}
+
+/* ============================================
+   UNMASKED MOBILE MODAL STYLES
+   ============================================ */
+
+.unmasked-number-display {
+    text-align: center;
+}
+
+.unmasked-number {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    padding: 20px;
+    background: var(--light-bg);
+    border-radius: 8px;
+    border: 2px solid var(--secondary-color);
+}
+
+.call-btn {
+    padding: 14px 30px;
+    background: var(--success-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.call-btn:hover {
+    background: #059669;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================
+   RESPONSIVE STYLES
+   ============================================ */
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .shop-tagline {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-input {
+        min-width: auto;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+
+    /* Responsive table - convert to cards on mobile */
+    .members-table {
+        font-size: 0.85rem;
+    }
+
+    .members-table th,
+    .members-table td {
+        padding: 12px;
+    }
+
+    .members-table th {
+        font-size: 0.8rem;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-width: 90vw;
+    }
+
+    .pagination button {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 20px 15px;
+    }
+
+    .header-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .shop-tagline {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .members-table {
+        font-size: 0.75rem;
+    }
+
+    .members-table th,
+    .members-table td {
+        padding: 8px;
+    }
+
+    .membership-tier {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+
+    .modal-header h2 {
+        font-size: 1.1rem;
+    }
+
+    .modal-content {
+        width: 98%;
+    }
+
+    .pagination {
+        gap: 4px;
+    }
+
+    .pagination button {
+        padding: 6px 8px;
+        font-size: 0.75rem;
+        min-width: 36px;
+    }
+
+    .unmasked-number {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.hidden {
+    display: none !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+{
+  "shop": {
+    "name": "Mobile Hub",
+    "description": "Premium Membership Management System",
+    "tagline": "Your Trusted Mobile Companion"
+  },
+  "members": [
+    {
+      "id": 1,
+      "serialNo": "001",
+      "name": "Aaditya Aggarwal",
+      "mobile": "8307965969",
+      "cardNumber": "MH-2024-001",
+      "cardIssuedDate": "2024-01-15",
+      "idType": "Aadhaar",
+      "idNumber": "123456789012",
+      "email": "rajesh.kumar@email.com",
+      "membershipTier": "Black",
+      "joinDate": "2024-01-10",
+      "availedBenefits": [
+        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
+        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
+      ]
+    }
+  ]
+}

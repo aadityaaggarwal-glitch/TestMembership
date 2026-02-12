@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Hub - Membership Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <h1 class="shop-name">📱 Mobile Hub</h1>
+                <p class="shop-tagline">Premium Membership Management System</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Search Bar Section -->
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="🔍 Search by name, ID, mobile, or card number..."
+                    autocomplete="off"
+                >
+                <button class="search-btn" onclick="clearSearch()">Clear</button>
+            </div>
+            <div class="search-info" id="searchInfo"></div>
+        </div>
+
+        <!-- Members Table Section -->
+        <div class="table-wrapper">
+            <table class="members-table">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Card Number</th>
+                        <th>Card Issued</th>
+                        <th>ID Type</th>
+                        <th>ID Number</th>
+                    </tr>
+                </thead>
+                <tbody id="membersTableBody">
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination Section -->
+        <div class="pagination-section">
+            <div class="pagination" id="pagination"></div>
+            <div class="pagination-info" id="paginationInfo"></div>
+        </div>
+    </main>
+
+    <!-- Benefits Modal -->
+    <div id="benefitsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Membership Benefits</h2>
+                <button class="close-btn" onclick="closeBenefitsModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="benefitsContent" class="benefits-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Password Modal for Unmasking -->
+    <div id="passwordModal" class="modal">
+        <div class="modal-content password-modal-content">
+            <div class="modal-header">
+                <h2>Verify to View Phone Number</h2>
+                <button class="close-btn" onclick="closePasswordModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="password-info">Enter password to view the complete phone number</p>
+                <input 
+                    type="password" 
+                    id="passwordInput" 
+                    class="password-input" 
+                    placeholder="Enter password"
+                    autocomplete="off"
+                >
+                <button class="password-submit-btn" onclick="verifyPassword()">Verify</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Unmasked Mobile Display Modal -->
+    <div id="unmaskedMobileModal" class="modal">
+        <div class="modal-content password-modal-content">
+            <div class="modal-header">
+                <h2>Phone Number</h2>
+                <button class="close-btn" onclick="closeUnmaskedModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="unmasked-number-display">
+                    <p id="unmaskedNumber" class="unmasked-number"></p>
+                    <button class="call-btn" id="callBtn" onclick="initiateCall()">📞 Call Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
