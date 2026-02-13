@@ -8,28 +8,24 @@
     {
       "id": 1,
       "serialNo": "001",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000001",
       "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10"
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 2,
       "serialNo": "002",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000002",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": "",
       "availedBenefits": [
         {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
         {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
@@ -38,172 +34,112 @@
     {
       "id": 3,
       "serialNo": "003",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000003",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 4,
       "serialNo": "004",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000004",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 5,
       "serialNo": "005",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000005",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 6,
       "serialNo": "006",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000006",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 7,
       "serialNo": "007",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000007",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 8,
       "serialNo": "008",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000008",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 9,
       "serialNo": "009",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000009",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 10,
       "serialNo": "010",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000010",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 11,
       "serialNo": "011",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000011",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     },
     {
       "id": 12,
       "serialNo": "012",
-      "name": "Aaditya Aggarwal",
-      "mobile": "8307965969",
-      "cardNumber": "MH-2024-001",
-      "cardIssuedDate": "2024-01-15",
-      "idType": "Aadhaar",
-      "idNumber": "123456789012",
-      "email": "rajesh.kumar@email.com",
-      "membershipTier": "Black",
-      "joinDate": "2024-01-10",
-      "availedBenefits": [
-        {"benefit": "20% discount on accessories", "availedDate": "2024-01-20"},
-        {"benefit": "Free screen protection film", "availedDate": "2024-02-05"}
-      ]
+      "name": "",
+      "mobile": "",
+      "cardNumber": "280819740000012",
+      "cardIssuedDate": "",
+      "idType": "",
+      "idNumber": "",
+      "email": ""
     }
   ]
 }
